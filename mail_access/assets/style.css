@@ -1,0 +1,35 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(28, 28, 28);
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto;
+    gap: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
