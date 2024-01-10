@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dice Game</title>
+
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 
-    <div class="field">
-        <p id="playerDieResult">
-
-        </p>
-    </div>
-    <div class="field">
-        <p id="npcDieResult">
-
-        </p>
-    </div>
-    <button id="roleDiceBtn">Roll</button>
+    <main>
+        <div class="container">
+            <div id="playerField" class="field">
+                <p id="playerDieResult">
+        
+                </p>
+            </div>
+            <div id="npcField" class="field">
+                <p id="npcDieResult">
+        
+                </p>
+            </div>
+        </div>
+        <button id="roleDiceBtn">Roll</button>
+    </main>
 
     
     <script src="./js/main.js"></script>
