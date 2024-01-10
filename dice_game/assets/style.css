@@ -1,0 +1,65 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background-color: ivory;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 100px auto;
+    gap: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.field{
+    width: 150px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field p{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+button{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(139, 0, 0);
+    font-size: larger;
+    border: none;
+}
+
+.winner {
+    border: 6px solid green;
+}
+
+.loser {
+    border: 6px solid red;
+}
+
+.tie {
+    border: 6px solid rgb(194, 194, 0);
+}
+
