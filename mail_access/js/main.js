@@ -14,10 +14,9 @@ for (let i = 0; i < emailProfiles.length; i++) {
 
 checkBtn.addEventListener('click', checkMail)
 
-let controlVariable = false
-
-
 function checkMail() {
+    
+    let controlVariable = false
     for (let i = 0; i < emailProfiles.length; i++) {
 
         if (emailProfiles[i] === inputMail.value) {
@@ -25,7 +24,7 @@ function checkMail() {
         }
     }
 
-    if (controlVariable == true) {
+    if (controlVariable) {
         resultCheck.innerHTML = "Benvenut*"
     } else {
         resultCheck.innerHTML = "Mi dispiace, festa privata"
